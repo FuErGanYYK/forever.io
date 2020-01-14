@@ -1,0 +1,371 @@
+/*网页的全局样式 解决兼容问题*/
+body,div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,table,tr,td,form,input,select,textarea,span,img,a,em,strong,*{ margin:0 auto; padding:0;}
+body{ font-family:"宋体"; font-size:12px; color:#000000;}
+ul,ol,li{ list-style:none;}
+input,select,textarea{ vertical-align:middle;}
+img{ border:none; vertical-align:middle;}
+a{ text-decoration:none; color:#fff;}
+a:hover{ color:#009999;}
+.clear{ clear:both; height:0px; width:0px; overflow:hidden;}
+
+body{
+	background-color: #666;
+}
+#zongcheng{
+
+	background-color: #fff;
+}
+
+/*头部*/
+.kingtop{
+	height: 30px;
+	background-color: #333333;
+}
+.kingtop font{
+	line-height: 30px;
+	margin-left: 10px;
+}
+
+.ktlt{
+	float: left;
+	margin-left: 210px;
+}
+.ktrt{
+	float: right;
+	margin-right: 200px;
+	line-height: 30px;
+}
+.ktrt span{
+	color: #fff;
+}
+
+
+.top{
+	width: 1300px;
+	height: 100px;
+	background-color: #fff;
+}	
+.top img{
+	margin-top: 17px;
+	float: left;
+}
+.toprt{
+	height: 100px;
+	width: 650px;
+	float: right;
+	margin-left: 230px;
+
+}
+.toprt a{
+	color: #000;
+	font-size: 12px;
+	line-height: 80px;
+	margin-left: 25px;
+	height: 10px;
+
+}
+.toprt a:hover{
+	border-bottom: 4px solid red;
+	color: red;
+}
+
+.topbanner{
+	height: 416px;
+	background-color: #ffffff;
+	width: 1550px;
+}
+.topbanner img{
+	background-repeat: no-repeat;
+}
+
+.bannertips{
+	margin-left: 170px;
+	margin-top: 30px;
+}
+.bannertips a{
+	color: red;
+}
+.bannertips a:hover{
+	text-decoration: underline;
+}
+
+/*中部*/
+.bigbox{
+	height: 85px;
+	width: 1300px;
+	background-color: #fff;
+}
+.bigbox dl,dd,dt{
+	float: left;
+}
+.bigbox dl{
+	margin-left: 100px;
+	margin-top: 15px;
+	width: 150px;
+	height: 100px;
+}
+.bigbox dd{
+	font-size: 16px;
+	color: red;
+}
+.bigbox p{
+	font-size: 12px;
+	color: #666;
+	margin-top: 5px;
+}
+
+/*中部2*/
+.bigbox2{
+	height: 150px;
+	width: 1300px;
+	border:1px solid #ccc;
+	background-color: #fff;
+	margin-bottom: 40px;
+}
+.bigbox2 dl{
+	width: 200px;
+	height: 110px;
+	float: left;
+	border-right: 1px solid #ccc;
+	margin-top: -8px;
+	padding-left: 120px;
+}
+
+/*中部主体*/
+.boxbdy{
+	width: 1300px;
+	height: 420px;
+	background-color: #f5f6f7;
+}
+.bx1{
+	width: 293px;
+	height: 420px;
+	background-color: #fff;
+	margin-left: 20px;
+	float: left;
+}
+.bx1top{
+	background-color: #15b1ff;
+	height: 110px;
+}
+.bx1top h1{
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	line-height:80px;
+}
+.bx1top h3{
+	font-weight: normal;
+	color: #fff;
+	text-align: center;
+	line-height: 0px;
+	font-size: 12px;
+}
+.bx1 p{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 20px;
+}
+.bx1 input{
+	background-color: #fff;
+	color: #15b1ff;
+	border: 1px solid #15b1ff;
+	cursor: pointer;
+	width: 280px;
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+
+.bx2{
+	width: 303px;
+	height: 420px;
+	background-color: #fff;
+	margin-left: 20px;
+	float: left;
+}
+.bx2top{
+	background-color: #f8ba00;
+	height: 110px;
+}
+.bx2top h1{
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	line-height:80px;
+}
+.bx2top h3{
+	font-weight: normal;
+	color: #fff;
+	text-align: center;
+	line-height: 0px;
+	font-size: 12px;
+}
+.bx2 p{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 20px;
+}
+.bx2 input{
+	background-color: #fff;
+	color: #f8ba00;
+	border: 1px solid #f8ba00;
+	cursor: pointer;
+	width: 280px;
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+
+.bx3{
+	width: 304px;
+	height: 420px;
+	background-color: #fff;
+	margin-left: 20px;
+	float: left;
+}
+.bx3top{
+	background-color: #fe7b20;
+	height: 110px;
+}
+.bx3top h1{
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	line-height:80px;
+}
+.bx3top h3{
+	font-weight: normal;
+	color: #fff;
+	text-align: center;
+	line-height: 0px;
+	font-size: 12px;
+}
+.bx3 p{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 20px;
+}
+.bx3 input{
+	background-color: #fff;
+	color: #fe7b20;
+	border: 1px solid #fe7b20;
+	cursor: pointer;
+	width: 280px;
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+
+.bx4{
+	width: 290px;
+	height: 420px;
+	background-color: #fff;
+	margin-left: 20px;
+	float: left;
+}
+.bx4top{
+	background-color: #ef1c2d;
+	height: 110px;
+}
+.bx4top h1{
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	line-height:80px;
+}
+.bx4top h3{
+	font-weight: normal;
+	color: #fff;
+	text-align: center;
+	line-height: 0px;
+	font-size: 12px;
+}
+.bx4 p{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 20px;
+}
+.bx4 input{
+	background-color: #fff;
+	color: #ef1c2d;
+	border: 1px solid #ef1c2d;
+	cursor: pointer;
+	width: 280px;
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+/*中部主体新闻*/
+.xw {
+	width: 1140px;
+	height: 330px;
+	background-color: #fff;
+
+}
+.xw li{
+	list-style-image: url(../images/4_62.jpg);
+	margin-top: 30px;
+}
+.xw a{
+	color: #666;
+
+}
+.xw a:hover{
+	color: red;
+	text-decoration: underline;
+}
+
+
+.xwlt{
+	margin-left: 40px;
+	float: left;
+}
+.xwlt h2{
+	border-bottom: 1px dotted #666;
+}
+
+
+.xwct{
+	margin-left: 40px;
+	float: left;
+}
+.xwct h2{
+	border-bottom: 1px dotted #666;
+}
+
+
+.xwrt{
+	margin-left: 40px;
+	float: left;
+}
+.xwrt ul{
+}
+.xwrt li{
+	list-style-image: none;
+}
+.xwrt h2{
+	border-bottom: 1px dotted #666;
+}
+
+
+/*底部版权*/
+.lowcopy{
+	background-color: #f5f5f5;
+	height: 190px;
+}
+.lowcopy p{
+	text-align: center;
+	padding-top: 25px;
+}
+.lowcopy hr{
+	background-color: #666;
+}
+.lowcopy a{
+	color: #666;
+	font-size: 12px;
+}
